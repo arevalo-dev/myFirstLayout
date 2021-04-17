@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-header {
+  background: linear-gradient(83.1deg, rgba(154, 46, 52, 0) -0.08%, #C87B4D 93.59%), url('../assets/banner.jpg'), no-repeat, fixed, center;
+  background-size: cover;
+  background-position: center, center;
+  height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+.main-header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header nav ul {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+
+}
