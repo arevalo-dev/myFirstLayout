@@ -91,9 +91,6 @@ a {
   border: 1px solid orange;
   margin: 2px;
 }
-.main-header .color {
-  background-color: orange;
-}
 
 .main-header section a img {
   width: 15px;
@@ -246,4 +243,8 @@ footer .powered p {
 
 .yellow {
   background-color: yellow;
+}
+
+.orange {
+  background-color: #C87B4D;
 }
