@@ -7,23 +7,164 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .main-header {
-  background: linear-gradient(83.1deg, rgba(154, 46, 52, 0) -0.08%, #C87B4D 93.59%), url('../assets/banner.jpg'), no-repeat, fixed, center;
+  background: linear-gradient(83.1deg, rgba(154, 46, 52, 0) -0.08%, #C87B4D 93.59%), url('../assets/banner.jpg'), no-repeat;
   background-size: cover;
   background-position: center, center;
+  background-attachment: fixed;
   height: 100vh;
   color: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main-header nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .main-header nav ul {
   display: flex;
   width: 40%;
   justify-content: space-between;
+  margin-left: 300px;
+}
 
+.main-header .content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.main-header .content-center h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+  font-style: normal;
+  color:rgba(240, 211, 181, 1);
+  width: 30%;
+  text-align: center;
+}
+
+.main-header .content-center img {
+  margin: 25px 0;
+}
+
+.main-header .content-center p {
+  width: 50%;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-header .content-center p span {
+  color: orange;
+}
+
+.main-header .content-center p strong {
+  color: orange;
+}
+
+.main-header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header .btn {
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  border-radius: 100px;
+  border: 1px solid orange;
+  text-align: center;
+  margin: 2px;
+}
+
+.main-header section a img {
+  width: 15px;
+  margin-left: 5px;
+}
+.main-header section ul {
+  display: flex;
+}
+
+.main-header section ul li {
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+
+.main {
+  justify-content: center;
+}
+.main .title h2 {
+  margin: 50px;
+  padding-top: 60px;
+  color: #C87B4D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 24px;
+}
+
+.main .title h3 {
+  margin: 50px;
+  color: #C87B4D;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main .proyect {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main .proyect .container {
+  border: 1px outset black;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.main .proyect .container .infografia {
+  border-radius: 8px;
+  width: 45vw;
+}
+
+footer {
+  background: rgba(200, 123, 77, 1);
+  padding: 40px;
+}
+
+/* Clases de Utilidad*/
+
+.flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
 }
