@@ -12,32 +12,36 @@
 
 <body>
 
-  <header class="main-header">
-    <nav>
+  <header class="main-header flex direction-column justify-between">
+    <nav class="flex justify-between align-items-center">
       <a href="">
         <img src="assets/logos/logo.png" alt="">
       </a>
-      <ul>
+      <ul class="flex justify-between">
         <li><a href="">inspiracion</a></li>
         <li><a href="">Registrate</a></li>
         <li><a href="">Iniciar Sesion</a></li>
       </ul>
-      <input type="text">
+      <p class="flex">
+        <img src="./assets/icons/search-icon.svg" alt="buscar">
+        <input type="text" placeholder="Buscar">
+      </p>
     </nav>
-    <div class="content-center">
-      <h1>Tecnología e Innovación</h1>
+    <div class="content-center flex direction-column align-items-center">
+      <h1 class="text-align-center">Tecnología e Innovación</h1>
       <img src="assets/logos/award-logo.png" alt="">
-      <p>Conoce los <span>proyectos nominados</span> a mejor diseño, innovación, creatividad, contenido y usabilidad.
+      <p class="text-align-center">Conoce los <span>proyectos nominados</span> a mejor diseño, innovación, creatividad,
+        contenido y usabilidad.
         <strong>TalentTech</strong> reconoce, premia e impulsa el talento de la comunidad digital.
       </p>
     </div>
-    <section>
+    <section class="flex justify-between align-items-center">
       <div>
-        <a href="" class="btn">Ver Nominados</a>
-        <a href="" class="btn">Votar</a>
+        <a href="" class="btn color text-align-center">Ver Nominados</a>
+        <a href="" class="btn text-align-center">Votar</a>
       </div>
       <div>
-        <ul>
+        <ul class="flex">
           <li><img src="assets/logos/left-laurel.png" alt=""></li>
           <li><img src="assets/avatars/avatar-1.png" alt=""></li>
           <li><img src="assets/avatars/avatar-2.png" alt=""></li>
@@ -56,7 +60,7 @@
       <h3><strong>Nominados</strong> Necesitamos tu voto!</h3>
     </section>
 
-    <section class="proyect flex">
+    <section class="proyect flex flex-wrap justify-center">
       <articule class="container">
         <div>
           <img class="infografia" src="./assets/projects/project-surtishapp.jpg" alt="proyecto shapp">
@@ -64,7 +68,7 @@
         <div>
           <h4>SurtiShapp</h4>
         </div>
-        <div class="flex justify-between">
+        <div class="place-date flex justify-between">
           <p>
             De Chiapas, Mexico
           </p>
@@ -73,14 +77,14 @@
           </p>
         </div>
         <div class="flex justify-between">
-          <div class="flex">
+          <div class=" dev flex align-items-center">
             <img src="./assets/avatars/avatar-6.png" alt="avatar">
             <p>Por <span>DevKoore</span></p>
           </div>
-          <div class="flex">
-            <p class="btn">DEV</p>
-            <p class="btn">MVP</p>
-            <p class="btn">UX/UI</p>
+          <div class="atributte flex align-items-center">
+            <p class="btn text-align-center red">DEV</p>
+            <p class="btn text-align-center green">MVP</p>
+            <p class="btn text-align-center yellow">UX/UI</p>
           </div>
         </div>
       </articule>
@@ -92,7 +96,7 @@
         <div>
           <h4>Standard & Sazon</h4>
         </div>
-        <div>
+        <div class="place-date flex justify-between">
           <p>
             De Queretaro, Mexico
           </p>
@@ -100,15 +104,15 @@
             26 de Octubre de 2020
           </p>
         </div>
-        <div>
-          <div>
+        <div class="flex justify-between">
+          <div class=" dev flex align-items-center">
             <img src="./assets/avatars/avatar-7.png" alt="avatar">
             <p>Por <span>Devixim</span></p>
           </div>
-          <div>
-            <p class="btn">DEV</p>
-            <p class="btn">MVP</p>
-            <p class="btn">UX/UI</p>
+          <div class="atributte flex align-items-center">
+            <p class="btn text-align-center red">DEV</p>
+            <p class="btn text-align-center green">MVP</p>
+            <p class="btn text-align-center yellow">UX/UI</p>
           </div>
         </div>
       </articule>
@@ -120,7 +124,7 @@
         <div>
           <h4>Arevalo & Asociados</h4>
         </div>
-        <div>
+        <div class="place-date flex justify-between">
           <p>
             De Puebla, Mexico
           </p>
@@ -128,15 +132,15 @@
             24 de junio de 2020
           </p>
         </div>
-        <div>
-          <div>
+        <div class="flex justify-between">
+          <div class=" dev flex align-items-center">
             <img src="./assets/avatars/avatar-8.png" alt="avatar">
             <p>Por <span>CoreNow</span></p>
           </div>
-          <div>
-            <p class="btn">DEV</p>
-            <p class="btn">MVP</p>
-            <p class="btn">UX/UI</p>
+          <div class="atributte flex align-items-center">
+            <p class="btn text-align-center red">DEV</p>
+            <p class="btn text-align-center green">MVP</p>
+            <p class="btn text-align-center yellow">UX/UI</p>
           </div>
         </div>
       </articule>
@@ -148,7 +152,7 @@
         <div>
           <h4>Ninja</h4>
         </div>
-        <div>
+        <div class="place-date flex justify-between">
           <p>
             De Ciudad de Mexico, Mexico
           </p>
@@ -156,15 +160,15 @@
             24 de junio de 2020
           </p>
         </div>
-        <div>
-          <div>
+        <div class="flex justify-between">
+          <div class=" dev flex align-items-center">
             <img src="./assets/avatars/avatar-9.png" alt="avatar">
             <p>Por <span>KoDevs</span></p>
           </div>
-          <div>
-            <p class="btn">DEV</p>
-            <p class="btn">MVP</p>
-            <p class="btn">UX/UI</p>
+          <div class="atributte flex align-items-center">
+            <p class="btn text-align-center red">DEV</p>
+            <p class="btn text-align-center green">MVP</p>
+            <p class="btn text-align-center yellow">UX/UI</p>
           </div>
         </div>
       </articule>
@@ -173,8 +177,8 @@
   </main>
 
   <footer class="flex direction-column">
-    <div class="flex justify-between">
-      <ul class="flex">
+    <div class="navigation flex justify-between align-items-center">
+      <ul class="flex justify-between">
         <li><a href="">Academia</a></li>
         <li><a href="">Ganadores</a></li>
         <li><a href="">Nominados</a></li>
@@ -186,7 +190,7 @@
         <li><img src="./assets/icons/linkedin-icon.svg" alt="linkedin"></li>
       </ul>
     </div>
-    <div class="flex justify-between">
+    <div class="social flex justify-between align-items-center">
       <ul class="flex">
         <li><a href=""><Strong>Siguenos</Strong></a></li>
         <li><a href="">Twitter</a></li>
@@ -198,8 +202,8 @@
         @TechTalent 2021, todos los derechos reservados
       </p>
     </div>
-    <div class="flex">
-      <p>
+    <div class="powered">
+      <p class="text-align-center">
         Powered with <img src="./assets/icons/like-icon.svg" alt="corazon"> by
         DevKoore
       </p>
