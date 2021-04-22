@@ -90,6 +90,21 @@ input[type=text] {
   line-height: 24px;
 }
 
+.main-header .content-center .wrapper-video {
+  position: relative;
+}
+
+.main-header .content-center .wrapper-video img {
+  margin: 0;
+  filter: drop-shadow(2px 4px 6px blue);
+}
+
+.main-header .content-center video {
+  position: absolute;
+  top: 17px;
+  left: 10px;
+}
+
 .main-header .content-center p span {
   color: orange;
 }
@@ -222,6 +237,10 @@ footer .powered p {
 
 .direction-column {
   flex-direction: column;
+}
+
+.direction-row {
+  flex-direction: row;
 }
 
 .justify-between {
